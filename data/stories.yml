@@ -1,0 +1,686 @@
+stories:
+- steps:
+  - intent: abstraction
+  - action: utter_abstraction
+  story: answer about abstraction
+- steps:
+  - intent: error
+  - action: utter_error
+  story: answer about error
+- steps:
+  - intent: documentation
+  - action: utter_documentation
+  story: answer about documentation
+- steps:
+  - intent: testing
+  - action: utter_testing
+  story: answer about testing
+- steps:
+  - intent: datastructure
+  - action: utter_datastructure
+  story: answer about datastructure
+- steps:
+  - intent: bst
+  - action: utter_bst
+  story: answer about bst
+- steps:
+  - intent: dynamic
+  - action: utter_dynamic
+  story: answer about dynamic
+- steps:
+  - intent: dll
+  - action: utter_dll
+  story: answer about dll
+- steps:
+  - intent: lr
+  - action: utter_lr
+  story: answer about lr
+- steps:
+  - intent: dt
+  - action: utter_dt
+  story: answer about dt
+- steps:
+  - intent: cm
+  - action: utter_cm
+  story: answer about cm
+- steps:
+  - intent: bias
+  - action: utter_bias
+  story: answer about bias
+- steps:
+  - intent: dr
+  - action: utter_dr
+  story: answer about dr
+- steps:
+  - intent: dbms
+  - action: utter_dbms
+  story: answer about dbms
+- steps:
+  - intent: normal
+  - action: utter_normal
+  story: answer about normal
+- steps:
+  - intent: bcnf
+  - action: utter_bcnf
+  story: answer about bcnf
+- steps:
+  - intent: relation
+  - action: utter_relation
+  story: answer about relation
+- steps:
+  - intent: ai
+  - action: utter_ai
+  story: answer about ai
+- steps:
+  - intent: expert
+  - action: utter_expert
+  story: answer about expert
+- steps:
+  - intent: rnn
+  - action: utter_rnn
+  story: answer about rnn
+- steps:
+  - intent: supervised
+  - action: utter_supervised
+  story: answer about supervised
+- steps:
+  - intent: hyperparameters
+  - action: utter_hyperparameters
+  story: answer about hyperparameters
+- steps:
+  - intent: bn
+  - action: utter_bn
+  story: answer about bn
+- steps:
+  - intent: encryption
+  - action: utter_encryption
+  story: answer about encryption
+- steps:
+  - intent: api
+  - action: utter_api
+  story: answer about api
+- steps:
+  - intent: cloud_computing
+  - action: utter_cloud_computing
+  story: answer about cloud_computing
+- steps:
+  - intent: virtual_reality
+  - action: utter_virtual_reality
+  story: answer about virtual_reality
+- steps:
+  - intent: cybersecurity
+  - action: utter_cybersecurity
+  story: answer about cybersecurity
+- steps:
+  - intent: database
+  - action: utter_database
+  story: answer about database
+- steps:
+  - intent: programming
+  - action: utter_programming
+  story: answer about programming
+- steps:
+  - intent: networking
+  - action: utter_networking
+  story: answer about networking
+- steps:
+  - intent: data_science
+  - action: utter_data_science
+  story: answer about data_science
+- steps:
+  - intent: internet_of_things
+  - action: utter_internet_of_things
+  story: answer about internet_of_things
+- steps:
+  - intent: blockchain
+  - action: utter_blockchain
+  story: answer about blockchain
+- steps:
+  - intent: neural_networks
+  - action: utter_neural_networks
+  story: answer about neural_networks
+- steps:
+  - intent: natural_language_processing
+  - action: utter_natural_language_processing
+  story: answer about natural_language_processing
+- steps:
+  - intent: big_data
+  - action: utter_big_data
+  story: answer about big_data
+- steps:
+  - intent: devops
+  - action: utter_devops
+  story: answer about devops
+- steps:
+  - intent: computer_architecture
+  - action: utter_computer_architecture
+  story: answer about computer_architecture
+- steps:
+  - intent: digital_logic_design
+  - action: utter_digital_logic_design
+  story: answer about digital_logic_design
+- steps:
+  - intent: javascript
+  - action: utter_javascript
+  story: answer about javascript
+- steps:
+  - intent: react
+  - action: utter_react
+  story: answer about react
+- steps:
+  - intent: oop
+  - action: utter_oop
+  story: answer about oop
+- steps:
+  - intent: data_abstraction
+  - action: utter_data_abstraction
+  story: answer about data_abstraction
+- steps:
+  - intent: objects,_classes,_and_methods
+  - action: utter_objects,_classes,_and_methods
+  story: answer about objects,_classes,_and_methods
+- steps:
+  - intent: constructors
+  - action: utter_constructors
+  story: answer about constructors
+- steps:
+  - intent: destructors
+  - action: utter_destructors
+  story: answer about destructors
+- steps:
+  - intent: operator_overloading
+  - action: utter_operator_overloading
+  story: answer about operator_overloading
+- steps:
+  - intent: generic_programming
+  - action: utter_generic_programming
+  story: answer about generic_programming
+- steps:
+  - intent: inheritance
+  - action: utter_inheritance
+  story: answer about inheritance
+- steps:
+  - intent: multiple_inheritance
+  - action: utter_multiple_inheritance
+  story: answer about multiple_inheritance
+- steps:
+  - intent: polymorphism
+  - action: utter_polymorphism
+  story: answer about polymorphism
+- steps:
+  - intent: aggregation
+  - action: utter_aggregation
+  story: answer about aggregation
+- steps:
+  - intent: program_debugging_and_testing
+  - action: utter_program_debugging_and_testing
+  story: answer about program_debugging_and_testing
+- steps:
+  - intent: event_logging
+  - action: utter_event_logging
+  story: answer about event_logging
+- steps:
+  - intent: propositional_logic
+  - action: utter_propositional_logic
+  story: answer about propositional_logic
+- steps:
+  - intent: logical_connectives
+  - action: utter_logical_connectives
+  story: answer about logical_connectives
+- steps:
+  - intent: truth_tables
+  - action: utter_truth_tables
+  story: answer about truth_tables
+- steps:
+  - intent: universal_quantification
+  - action: utter_universal_quantification
+  story: answer about universal_quantification
+- steps:
+  - intent: existential_quantification
+  - action: utter_existential_quantification
+  story: answer about existential_quantification
+- steps:
+  - intent: rate_of_growth_of_complexity_of_algorithms
+  - action: utter_rate_of_growth_of_complexity_of_algorithms
+  story: answer about rate_of_growth_of_complexity_of_algorithms
+- steps:
+  - intent: asymptotic_notations
+  - action: utter_asymptotic_notations
+  story: answer about asymptotic_notations
+- steps:
+  - intent: time-space_trade_offs
+  - action: utter_time-space_trade_offs
+  story: answer about time-space_trade_offs
+- steps:
+  - intent: operations_on_strings
+  - action: utter_operations_on_strings
+  story: answer about operations_on_strings
+- steps:
+  - intent: word_processing
+  - action: utter_word_processing
+  story: answer about word_processing
+- steps:
+  - intent: pattern_matching_algorithms
+  - action: utter_pattern_matching_algorithms
+  story: answer about pattern_matching_algorithms
+- steps:
+  - intent: one-dimensional_arrays
+  - action: utter_one-dimensional_arrays
+  story: answer about one-dimensional_arrays
+- steps:
+  - intent: multi-dimensional_arrays
+  - action: utter_multi-dimensional_arrays
+  story: answer about multi-dimensional_arrays
+- steps:
+  - intent: searching_algorithms_for_arrays
+  - action: utter_searching_algorithms_for_arrays
+  story: answer about searching_algorithms_for_arrays
+- steps:
+  - intent: sorting_algorithms_for_arrays
+  - action: utter_sorting_algorithms_for_arrays
+  story: answer about sorting_algorithms_for_arrays
+- steps:
+  - intent: matrix_multiplication
+  - action: utter_matrix_multiplication
+  story: answer about matrix_multiplication
+- steps:
+  - intent: sparse_matrices
+  - action: utter_sparse_matrices
+  story: answer about sparse_matrices
+- steps:
+  - intent: stacks
+  - action: utter_stacks
+  story: answer about stacks
+- steps:
+  - intent: queues
+  - action: utter_queues
+  story: answer about queues
+- steps:
+  - intent: recursion
+  - action: utter_recursion
+  story: answer about recursion
+- steps:
+  - intent: polish_notation
+  - action: utter_polish_notation
+  story: answer about polish_notation
+- steps:
+  - intent: quick_sort
+  - action: utter_quick_sort
+  story: answer about quick_sort
+- steps:
+  - intent: deques
+  - action: utter_deques
+  story: answer about deques
+- steps:
+  - intent: priority_queues
+  - action: utter_priority_queues
+  story: answer about priority_queues
+- steps:
+  - intent: factorial_calculation
+  - action: utter_factorial_calculation
+  story: answer about factorial_calculation
+- steps:
+  - intent: fibonacci_series
+  - action: utter_fibonacci_series
+  story: answer about fibonacci_series
+- steps:
+  - intent: adders
+  - action: utter_adders
+  story: answer about adders
+- steps:
+  - intent: decoders
+  - action: utter_decoders
+  story: answer about decoders
+- steps:
+  - intent: encoders
+  - action: utter_encoders
+  story: answer about encoders
+- steps:
+  - intent: multiplexers
+  - action: utter_multiplexers
+  story: answer about multiplexers
+- steps:
+  - intent: demultiplexers
+  - action: utter_demultiplexers
+  story: answer about demultiplexers
+- steps:
+  - intent: binary_code_converters
+  - action: utter_binary_code_converters
+  story: answer about binary_code_converters
+- steps:
+  - intent: latches_and_flip_flops
+  - action: utter_latches_and_flip_flops
+  story: answer about latches_and_flip_flops
+- steps:
+  - intent: shift_registers
+  - action: utter_shift_registers
+  story: answer about shift_registers
+- steps:
+  - intent: asynchronous_counters
+  - action: utter_asynchronous_counters
+  story: answer about asynchronous_counters
+- steps:
+  - intent: mealy_and_moore_machines
+  - action: utter_mealy_and_moore_machines
+  story: answer about mealy_and_moore_machines
+- steps:
+  - intent: synchronous_counters
+  - action: utter_synchronous_counters
+  story: answer about synchronous_counters
+- steps:
+  - intent: state_minimization_techniques
+  - action: utter_state_minimization_techniques
+  story: answer about state_minimization_techniques
+- steps:
+  - intent: read_only_memory
+  - action: utter_read_only_memory
+  story: answer about read_only_memory
+- steps:
+  - intent: programmable_array_logic
+  - action: utter_programmable_array_logic
+  story: answer about programmable_array_logic
+- steps:
+  - intent: programmable_logic_array
+  - action: utter_programmable_logic_array
+  story: answer about programmable_logic_array
+- steps:
+  - intent: instruction_set_architecture
+  - action: utter_instruction_set_architecture
+  story: answer about instruction_set_architecture
+- steps:
+  - intent: accumulator_based
+  - action: utter_accumulator_based
+  story: answer about accumulator_based
+- steps:
+  - intent: stack_based
+  - action: utter_stack_based
+  story: answer about stack_based
+- steps:
+  - intent: register_memory
+  - action: utter_register_memory
+  story: answer about register_memory
+- steps:
+  - intent: register_register
+  - action: utter_register_register
+  story: answer about register_register
+- steps:
+  - intent: instruction_encoding
+  - action: utter_instruction_encoding
+  story: answer about instruction_encoding
+- steps:
+  - intent: computer_performance
+  - action: utter_computer_performance
+  story: answer about computer_performance
+- steps:
+  - intent: common_pitfalls
+  - action: utter_common_pitfalls
+  story: answer about common_pitfalls
+- steps:
+  - intent: amdahls_law
+  - action: utter_amdahls_law
+  story: answer about amdahls_law
+- steps:
+  - intent: memory_hierarchy
+  - action: utter_memory_hierarchy
+  story: answer about memory_hierarchy
+- steps:
+  - intent: cache_memory
+  - action: utter_cache_memory
+  story: answer about cache_memory
+- steps:
+  - intent: bus_standards
+  - action: utter_bus_standards
+  story: answer about bus_standards
+- steps:
+  - intent: arbitration_schemes
+  - action: utter_arbitration_schemes
+  story: answer about arbitration_schemes
+- steps:
+  - intent: programmed_io
+  - action: utter_programmed_io
+  story: answer about programmed_io
+- steps:
+  - intent: interrupt_driven_io
+  - action: utter_interrupt_driven_io
+  story: answer about interrupt_driven_io
+- steps:
+  - intent: direct_memory_access
+  - action: utter_direct_memory_access
+  story: answer about direct_memory_access
+- steps:
+  - intent: cap_theorem
+  - action: utter_cap_theorem
+  story: answer about cap_theorem
+- steps:
+  - intent: distributed_databases
+  - action: utter_distributed_databases
+  story: answer about distributed_databases
+- steps:
+  - intent: decision_support_systems
+  - action: utter_decision_support_systems
+  story: answer about decision_support_systems
+- steps:
+  - intent: data_warehousing
+  - action: utter_data_warehousing
+  story: answer about data_warehousing
+- steps:
+  - intent: instruction_level_parallelism
+  - action: utter_instruction_level_parallelism
+  story: answer about instruction_level_parallelism
+- steps:
+  - intent: pipeline_hazards
+  - action: utter_pipeline_hazards
+  story: answer about pipeline_hazards
+- steps:
+  - intent: data_level_parallelism
+  - action: utter_data_level_parallelism
+  story: answer about data_level_parallelism
+- steps:
+  - intent: branch_prediction
+  - action: utter_branch_prediction
+  story: answer about branch_prediction
+- steps:
+  - intent: multiple_issue_architectures
+  - action: utter_multiple_issue_architectures
+  story: answer about multiple_issue_architectures
+- steps:
+  - intent: software_process_models
+  - action: utter_software_process_models
+  story: answer about software_process_models
+- steps:
+  - intent: requirements_engineering_process
+  - action: utter_requirements_engineering_process
+  story: answer about requirements_engineering_process
+- steps:
+  - intent: planning_and_scheduling
+  - action: utter_planning_and_scheduling
+  story: answer about planning_and_scheduling
+- steps:
+  - intent: risk_management
+  - action: utter_risk_management
+  story: answer about risk_management
+- steps:
+  - intent: software_quality_assurance
+  - action: utter_software_quality_assurance
+  story: answer about software_quality_assurance
+- steps:
+  - intent: cocomo_model
+  - action: utter_cocomo_model
+  story: answer about cocomo_model
+- steps:
+  - intent: software_maintenance
+  - action: utter_software_maintenance
+  story: answer about software_maintenance
+- steps:
+  - intent: osi_reference_model
+  - action: utter_osi_reference_model
+  story: answer about osi_reference_model
+- steps:
+  - intent: tcp_ip_reference_model
+  - action: utter_tcp_ip_reference_model
+  story: answer about tcp_ip_reference_model
+- steps:
+  - intent: software_defined_networking
+  - action: utter_software_defined_networking
+  story: answer about software_defined_networking
+- steps:
+  - intent: virtual_network_functions
+  - action: utter_virtual_network_functions
+  story: answer about virtual_network_functions
+- steps:
+  - intent: ip_addressing
+  - action: utter_ip_addressing
+  story: answer about ip_addressing
+- steps:
+  - intent: ip_subnetting
+  - action: utter_ip_subnetting
+  story: answer about ip_subnetting
+- steps:
+  - intent: network_routing
+  - action: utter_network_routing
+  story: answer about network_routing
+- steps:
+  - intent: computational_intelligence
+  - action: utter_computational_intelligence
+  story: answer about computational_intelligence
+- steps:
+  - intent: searching_methodologies
+  - action: utter_searching_methodologies
+  story: answer about searching_methodologies
+- steps:
+  - intent: first_order_logic
+  - action: utter_first_order_logic
+  story: answer about first_order_logic
+- steps:
+  - intent: genetic_algorithms
+  - action: utter_genetic_algorithms
+  story: answer about genetic_algorithms
+- steps:
+  - intent: evolutionary_strategies
+  - action: utter_evolutionary_strategies
+  story: answer about evolutionary_strategies
+- steps:
+  - intent: kernels
+  - action: utter_kernels
+  story: answer about kernels
+- steps:
+  - intent: processes
+  - action: utter_processes
+  story: answer about processes
+- steps:
+  - intent: threads
+  - action: utter_threads
+  story: answer about threads
+- steps:
+  - intent: deadlock
+  - action: utter_deadlock
+  story: answer about deadlock
+- steps:
+  - intent: scheduling_algorithms
+  - action: utter_scheduling_algorithms
+  story: answer about scheduling_algorithms
+- steps:
+  - intent: memory_management
+  - action: utter_memory_management
+  story: answer about memory_management
+- steps:
+  - intent: secondary_storage_management
+  - action: utter_secondary_storage_management
+  story: answer about secondary_storage_management
+- steps:
+  - intent: file_management
+  - action: utter_file_management
+  story: answer about file_management
+- steps:
+  - intent: io_management
+  - action: utter_io_management
+  story: answer about io_management
+- steps:
+  - intent: disk_scheduling
+  - action: utter_disk_scheduling
+  story: answer about disk_scheduling
+- steps:
+  - intent: internal_bus_architecture
+  - action: utter_internal_bus_architecture
+  story: answer about internal_bus_architecture
+- steps:
+  - intent: pin_functions
+  - action: utter_pin_functions
+  story: answer about pin_functions
+- steps:
+  - intent: memory_addressing_schemes
+  - action: utter_memory_addressing_schemes
+  story: answer about memory_addressing_schemes
+- steps:
+  - intent: bus_buffering
+  - action: utter_bus_buffering
+  story: answer about bus_buffering
+- steps:
+  - intent: bus_cycles
+  - action: utter_bus_cycles
+  story: answer about bus_cycles
+- steps:
+  - intent: clock_generation_circuit
+  - action: utter_clock_generation_circuit
+  story: answer about clock_generation_circuit
+- steps:
+  - intent: reset_circuit
+  - action: utter_reset_circuit
+  story: answer about reset_circuit
+- steps:
+  - intent: memory_interfacing
+  - action: utter_memory_interfacing
+  story: answer about memory_interfacing
+- steps:
+  - intent: basic_io_interface
+  - action: utter_basic_io_interface
+  story: answer about basic_io_interface
+- steps:
+  - intent: programmable_peripheral_interface
+  - action: utter_programmable_peripheral_interface
+  story: answer about programmable_peripheral_interface
+- steps:
+  - intent: programmable_interval_timer
+  - action: utter_programmable_interval_timer
+  story: answer about programmable_interval_timer
+- steps:
+  - intent: hardware_interrupts
+  - action: utter_hardware_interrupts
+  story: answer about hardware_interrupts
+- steps:
+  - intent: programmable_interrupt_controller
+  - action: utter_programmable_interrupt_controller
+  story: answer about programmable_interrupt_controller
+- steps:
+  - intent: dma_operations
+  - action: utter_dma_operations
+  story: answer about dma_operations
+- steps:
+  - intent: training_vs_testing
+  - action: utter_training_vs_testing
+  story: answer about training_vs_testing
+- steps:
+  - intent: theory_of_generalization
+  - action: utter_theory_of_generalization
+  story: answer about theory_of_generalization
+- steps:
+  - intent: vc_dimension
+  - action: utter_vc_dimension
+  story: answer about vc_dimension
+- steps:
+  - intent: generalization_bounds
+  - action: utter_generalization_bounds
+  story: answer about generalization_bounds
+- steps:
+  - intent: bias_variance_tradeoff
+  - action: utter_bias_variance_tradeoff
+  story: answer about bias_variance_tradeoff
+- steps:
+  - intent: stochastic_gradient_descent
+  - action: utter_stochastic_gradient_descent
+  story: answer about stochastic_gradient_descent
+- steps:
+  - intent: backpropagation_algorithm
+  - action: utter_backpropagation_algorithm
+  story: answer about backpropagation_algorithm
+version: '3.1'

@@ -1,0 +1,686 @@
+rules:
+- rule: Respond to abstraction
+  steps:
+  - intent: abstraction
+  - action: utter_abstraction
+- rule: Respond to error
+  steps:
+  - intent: error
+  - action: utter_error
+- rule: Respond to documentation
+  steps:
+  - intent: documentation
+  - action: utter_documentation
+- rule: Respond to testing
+  steps:
+  - intent: testing
+  - action: utter_testing
+- rule: Respond to datastructure
+  steps:
+  - intent: datastructure
+  - action: utter_datastructure
+- rule: Respond to bst
+  steps:
+  - intent: bst
+  - action: utter_bst
+- rule: Respond to dynamic
+  steps:
+  - intent: dynamic
+  - action: utter_dynamic
+- rule: Respond to dll
+  steps:
+  - intent: dll
+  - action: utter_dll
+- rule: Respond to lr
+  steps:
+  - intent: lr
+  - action: utter_lr
+- rule: Respond to dt
+  steps:
+  - intent: dt
+  - action: utter_dt
+- rule: Respond to cm
+  steps:
+  - intent: cm
+  - action: utter_cm
+- rule: Respond to bias
+  steps:
+  - intent: bias
+  - action: utter_bias
+- rule: Respond to dr
+  steps:
+  - intent: dr
+  - action: utter_dr
+- rule: Respond to dbms
+  steps:
+  - intent: dbms
+  - action: utter_dbms
+- rule: Respond to normal
+  steps:
+  - intent: normal
+  - action: utter_normal
+- rule: Respond to bcnf
+  steps:
+  - intent: bcnf
+  - action: utter_bcnf
+- rule: Respond to relation
+  steps:
+  - intent: relation
+  - action: utter_relation
+- rule: Respond to ai
+  steps:
+  - intent: ai
+  - action: utter_ai
+- rule: Respond to expert
+  steps:
+  - intent: expert
+  - action: utter_expert
+- rule: Respond to rnn
+  steps:
+  - intent: rnn
+  - action: utter_rnn
+- rule: Respond to supervised
+  steps:
+  - intent: supervised
+  - action: utter_supervised
+- rule: Respond to hyperparameters
+  steps:
+  - intent: hyperparameters
+  - action: utter_hyperparameters
+- rule: Respond to bn
+  steps:
+  - intent: bn
+  - action: utter_bn
+- rule: Respond to encryption
+  steps:
+  - intent: encryption
+  - action: utter_encryption
+- rule: Respond to api
+  steps:
+  - intent: api
+  - action: utter_api
+- rule: Respond to cloud_computing
+  steps:
+  - intent: cloud_computing
+  - action: utter_cloud_computing
+- rule: Respond to virtual_reality
+  steps:
+  - intent: virtual_reality
+  - action: utter_virtual_reality
+- rule: Respond to cybersecurity
+  steps:
+  - intent: cybersecurity
+  - action: utter_cybersecurity
+- rule: Respond to database
+  steps:
+  - intent: database
+  - action: utter_database
+- rule: Respond to programming
+  steps:
+  - intent: programming
+  - action: utter_programming
+- rule: Respond to networking
+  steps:
+  - intent: networking
+  - action: utter_networking
+- rule: Respond to data_science
+  steps:
+  - intent: data_science
+  - action: utter_data_science
+- rule: Respond to internet_of_things
+  steps:
+  - intent: internet_of_things
+  - action: utter_internet_of_things
+- rule: Respond to blockchain
+  steps:
+  - intent: blockchain
+  - action: utter_blockchain
+- rule: Respond to neural_networks
+  steps:
+  - intent: neural_networks
+  - action: utter_neural_networks
+- rule: Respond to natural_language_processing
+  steps:
+  - intent: natural_language_processing
+  - action: utter_natural_language_processing
+- rule: Respond to big_data
+  steps:
+  - intent: big_data
+  - action: utter_big_data
+- rule: Respond to devops
+  steps:
+  - intent: devops
+  - action: utter_devops
+- rule: Respond to computer_architecture
+  steps:
+  - intent: computer_architecture
+  - action: utter_computer_architecture
+- rule: Respond to digital_logic_design
+  steps:
+  - intent: digital_logic_design
+  - action: utter_digital_logic_design
+- rule: Respond to javascript
+  steps:
+  - intent: javascript
+  - action: utter_javascript
+- rule: Respond to react
+  steps:
+  - intent: react
+  - action: utter_react
+- rule: Respond to oop
+  steps:
+  - intent: oop
+  - action: utter_oop
+- rule: Respond to data_abstraction
+  steps:
+  - intent: data_abstraction
+  - action: utter_data_abstraction
+- rule: Respond to objects,_classes,_and_methods
+  steps:
+  - intent: objects,_classes,_and_methods
+  - action: utter_objects,_classes,_and_methods
+- rule: Respond to constructors
+  steps:
+  - intent: constructors
+  - action: utter_constructors
+- rule: Respond to destructors
+  steps:
+  - intent: destructors
+  - action: utter_destructors
+- rule: Respond to operator_overloading
+  steps:
+  - intent: operator_overloading
+  - action: utter_operator_overloading
+- rule: Respond to generic_programming
+  steps:
+  - intent: generic_programming
+  - action: utter_generic_programming
+- rule: Respond to inheritance
+  steps:
+  - intent: inheritance
+  - action: utter_inheritance
+- rule: Respond to multiple_inheritance
+  steps:
+  - intent: multiple_inheritance
+  - action: utter_multiple_inheritance
+- rule: Respond to polymorphism
+  steps:
+  - intent: polymorphism
+  - action: utter_polymorphism
+- rule: Respond to aggregation
+  steps:
+  - intent: aggregation
+  - action: utter_aggregation
+- rule: Respond to program_debugging_and_testing
+  steps:
+  - intent: program_debugging_and_testing
+  - action: utter_program_debugging_and_testing
+- rule: Respond to event_logging
+  steps:
+  - intent: event_logging
+  - action: utter_event_logging
+- rule: Respond to propositional_logic
+  steps:
+  - intent: propositional_logic
+  - action: utter_propositional_logic
+- rule: Respond to logical_connectives
+  steps:
+  - intent: logical_connectives
+  - action: utter_logical_connectives
+- rule: Respond to truth_tables
+  steps:
+  - intent: truth_tables
+  - action: utter_truth_tables
+- rule: Respond to universal_quantification
+  steps:
+  - intent: universal_quantification
+  - action: utter_universal_quantification
+- rule: Respond to existential_quantification
+  steps:
+  - intent: existential_quantification
+  - action: utter_existential_quantification
+- rule: Respond to rate_of_growth_of_complexity_of_algorithms
+  steps:
+  - intent: rate_of_growth_of_complexity_of_algorithms
+  - action: utter_rate_of_growth_of_complexity_of_algorithms
+- rule: Respond to asymptotic_notations
+  steps:
+  - intent: asymptotic_notations
+  - action: utter_asymptotic_notations
+- rule: Respond to time-space_trade_offs
+  steps:
+  - intent: time-space_trade_offs
+  - action: utter_time-space_trade_offs
+- rule: Respond to operations_on_strings
+  steps:
+  - intent: operations_on_strings
+  - action: utter_operations_on_strings
+- rule: Respond to word_processing
+  steps:
+  - intent: word_processing
+  - action: utter_word_processing
+- rule: Respond to pattern_matching_algorithms
+  steps:
+  - intent: pattern_matching_algorithms
+  - action: utter_pattern_matching_algorithms
+- rule: Respond to one-dimensional_arrays
+  steps:
+  - intent: one-dimensional_arrays
+  - action: utter_one-dimensional_arrays
+- rule: Respond to multi-dimensional_arrays
+  steps:
+  - intent: multi-dimensional_arrays
+  - action: utter_multi-dimensional_arrays
+- rule: Respond to searching_algorithms_for_arrays
+  steps:
+  - intent: searching_algorithms_for_arrays
+  - action: utter_searching_algorithms_for_arrays
+- rule: Respond to sorting_algorithms_for_arrays
+  steps:
+  - intent: sorting_algorithms_for_arrays
+  - action: utter_sorting_algorithms_for_arrays
+- rule: Respond to matrix_multiplication
+  steps:
+  - intent: matrix_multiplication
+  - action: utter_matrix_multiplication
+- rule: Respond to sparse_matrices
+  steps:
+  - intent: sparse_matrices
+  - action: utter_sparse_matrices
+- rule: Respond to stacks
+  steps:
+  - intent: stacks
+  - action: utter_stacks
+- rule: Respond to queues
+  steps:
+  - intent: queues
+  - action: utter_queues
+- rule: Respond to recursion
+  steps:
+  - intent: recursion
+  - action: utter_recursion
+- rule: Respond to polish_notation
+  steps:
+  - intent: polish_notation
+  - action: utter_polish_notation
+- rule: Respond to quick_sort
+  steps:
+  - intent: quick_sort
+  - action: utter_quick_sort
+- rule: Respond to deques
+  steps:
+  - intent: deques
+  - action: utter_deques
+- rule: Respond to priority_queues
+  steps:
+  - intent: priority_queues
+  - action: utter_priority_queues
+- rule: Respond to factorial_calculation
+  steps:
+  - intent: factorial_calculation
+  - action: utter_factorial_calculation
+- rule: Respond to fibonacci_series
+  steps:
+  - intent: fibonacci_series
+  - action: utter_fibonacci_series
+- rule: Respond to adders
+  steps:
+  - intent: adders
+  - action: utter_adders
+- rule: Respond to decoders
+  steps:
+  - intent: decoders
+  - action: utter_decoders
+- rule: Respond to encoders
+  steps:
+  - intent: encoders
+  - action: utter_encoders
+- rule: Respond to multiplexers
+  steps:
+  - intent: multiplexers
+  - action: utter_multiplexers
+- rule: Respond to demultiplexers
+  steps:
+  - intent: demultiplexers
+  - action: utter_demultiplexers
+- rule: Respond to binary_code_converters
+  steps:
+  - intent: binary_code_converters
+  - action: utter_binary_code_converters
+- rule: Respond to latches_and_flip_flops
+  steps:
+  - intent: latches_and_flip_flops
+  - action: utter_latches_and_flip_flops
+- rule: Respond to shift_registers
+  steps:
+  - intent: shift_registers
+  - action: utter_shift_registers
+- rule: Respond to asynchronous_counters
+  steps:
+  - intent: asynchronous_counters
+  - action: utter_asynchronous_counters
+- rule: Respond to mealy_and_moore_machines
+  steps:
+  - intent: mealy_and_moore_machines
+  - action: utter_mealy_and_moore_machines
+- rule: Respond to synchronous_counters
+  steps:
+  - intent: synchronous_counters
+  - action: utter_synchronous_counters
+- rule: Respond to state_minimization_techniques
+  steps:
+  - intent: state_minimization_techniques
+  - action: utter_state_minimization_techniques
+- rule: Respond to read_only_memory
+  steps:
+  - intent: read_only_memory
+  - action: utter_read_only_memory
+- rule: Respond to programmable_array_logic
+  steps:
+  - intent: programmable_array_logic
+  - action: utter_programmable_array_logic
+- rule: Respond to programmable_logic_array
+  steps:
+  - intent: programmable_logic_array
+  - action: utter_programmable_logic_array
+- rule: Respond to instruction_set_architecture
+  steps:
+  - intent: instruction_set_architecture
+  - action: utter_instruction_set_architecture
+- rule: Respond to accumulator_based
+  steps:
+  - intent: accumulator_based
+  - action: utter_accumulator_based
+- rule: Respond to stack_based
+  steps:
+  - intent: stack_based
+  - action: utter_stack_based
+- rule: Respond to register_memory
+  steps:
+  - intent: register_memory
+  - action: utter_register_memory
+- rule: Respond to register_register
+  steps:
+  - intent: register_register
+  - action: utter_register_register
+- rule: Respond to instruction_encoding
+  steps:
+  - intent: instruction_encoding
+  - action: utter_instruction_encoding
+- rule: Respond to computer_performance
+  steps:
+  - intent: computer_performance
+  - action: utter_computer_performance
+- rule: Respond to common_pitfalls
+  steps:
+  - intent: common_pitfalls
+  - action: utter_common_pitfalls
+- rule: Respond to amdahls_law
+  steps:
+  - intent: amdahls_law
+  - action: utter_amdahls_law
+- rule: Respond to memory_hierarchy
+  steps:
+  - intent: memory_hierarchy
+  - action: utter_memory_hierarchy
+- rule: Respond to cache_memory
+  steps:
+  - intent: cache_memory
+  - action: utter_cache_memory
+- rule: Respond to bus_standards
+  steps:
+  - intent: bus_standards
+  - action: utter_bus_standards
+- rule: Respond to arbitration_schemes
+  steps:
+  - intent: arbitration_schemes
+  - action: utter_arbitration_schemes
+- rule: Respond to programmed_io
+  steps:
+  - intent: programmed_io
+  - action: utter_programmed_io
+- rule: Respond to interrupt_driven_io
+  steps:
+  - intent: interrupt_driven_io
+  - action: utter_interrupt_driven_io
+- rule: Respond to direct_memory_access
+  steps:
+  - intent: direct_memory_access
+  - action: utter_direct_memory_access
+- rule: Respond to cap_theorem
+  steps:
+  - intent: cap_theorem
+  - action: utter_cap_theorem
+- rule: Respond to distributed_databases
+  steps:
+  - intent: distributed_databases
+  - action: utter_distributed_databases
+- rule: Respond to decision_support_systems
+  steps:
+  - intent: decision_support_systems
+  - action: utter_decision_support_systems
+- rule: Respond to data_warehousing
+  steps:
+  - intent: data_warehousing
+  - action: utter_data_warehousing
+- rule: Respond to instruction_level_parallelism
+  steps:
+  - intent: instruction_level_parallelism
+  - action: utter_instruction_level_parallelism
+- rule: Respond to pipeline_hazards
+  steps:
+  - intent: pipeline_hazards
+  - action: utter_pipeline_hazards
+- rule: Respond to data_level_parallelism
+  steps:
+  - intent: data_level_parallelism
+  - action: utter_data_level_parallelism
+- rule: Respond to branch_prediction
+  steps:
+  - intent: branch_prediction
+  - action: utter_branch_prediction
+- rule: Respond to multiple_issue_architectures
+  steps:
+  - intent: multiple_issue_architectures
+  - action: utter_multiple_issue_architectures
+- rule: Respond to software_process_models
+  steps:
+  - intent: software_process_models
+  - action: utter_software_process_models
+- rule: Respond to requirements_engineering_process
+  steps:
+  - intent: requirements_engineering_process
+  - action: utter_requirements_engineering_process
+- rule: Respond to planning_and_scheduling
+  steps:
+  - intent: planning_and_scheduling
+  - action: utter_planning_and_scheduling
+- rule: Respond to risk_management
+  steps:
+  - intent: risk_management
+  - action: utter_risk_management
+- rule: Respond to software_quality_assurance
+  steps:
+  - intent: software_quality_assurance
+  - action: utter_software_quality_assurance
+- rule: Respond to cocomo_model
+  steps:
+  - intent: cocomo_model
+  - action: utter_cocomo_model
+- rule: Respond to software_maintenance
+  steps:
+  - intent: software_maintenance
+  - action: utter_software_maintenance
+- rule: Respond to osi_reference_model
+  steps:
+  - intent: osi_reference_model
+  - action: utter_osi_reference_model
+- rule: Respond to tcp_ip_reference_model
+  steps:
+  - intent: tcp_ip_reference_model
+  - action: utter_tcp_ip_reference_model
+- rule: Respond to software_defined_networking
+  steps:
+  - intent: software_defined_networking
+  - action: utter_software_defined_networking
+- rule: Respond to virtual_network_functions
+  steps:
+  - intent: virtual_network_functions
+  - action: utter_virtual_network_functions
+- rule: Respond to ip_addressing
+  steps:
+  - intent: ip_addressing
+  - action: utter_ip_addressing
+- rule: Respond to ip_subnetting
+  steps:
+  - intent: ip_subnetting
+  - action: utter_ip_subnetting
+- rule: Respond to network_routing
+  steps:
+  - intent: network_routing
+  - action: utter_network_routing
+- rule: Respond to computational_intelligence
+  steps:
+  - intent: computational_intelligence
+  - action: utter_computational_intelligence
+- rule: Respond to searching_methodologies
+  steps:
+  - intent: searching_methodologies
+  - action: utter_searching_methodologies
+- rule: Respond to first_order_logic
+  steps:
+  - intent: first_order_logic
+  - action: utter_first_order_logic
+- rule: Respond to genetic_algorithms
+  steps:
+  - intent: genetic_algorithms
+  - action: utter_genetic_algorithms
+- rule: Respond to evolutionary_strategies
+  steps:
+  - intent: evolutionary_strategies
+  - action: utter_evolutionary_strategies
+- rule: Respond to kernels
+  steps:
+  - intent: kernels
+  - action: utter_kernels
+- rule: Respond to processes
+  steps:
+  - intent: processes
+  - action: utter_processes
+- rule: Respond to threads
+  steps:
+  - intent: threads
+  - action: utter_threads
+- rule: Respond to deadlock
+  steps:
+  - intent: deadlock
+  - action: utter_deadlock
+- rule: Respond to scheduling_algorithms
+  steps:
+  - intent: scheduling_algorithms
+  - action: utter_scheduling_algorithms
+- rule: Respond to memory_management
+  steps:
+  - intent: memory_management
+  - action: utter_memory_management
+- rule: Respond to secondary_storage_management
+  steps:
+  - intent: secondary_storage_management
+  - action: utter_secondary_storage_management
+- rule: Respond to file_management
+  steps:
+  - intent: file_management
+  - action: utter_file_management
+- rule: Respond to io_management
+  steps:
+  - intent: io_management
+  - action: utter_io_management
+- rule: Respond to disk_scheduling
+  steps:
+  - intent: disk_scheduling
+  - action: utter_disk_scheduling
+- rule: Respond to internal_bus_architecture
+  steps:
+  - intent: internal_bus_architecture
+  - action: utter_internal_bus_architecture
+- rule: Respond to pin_functions
+  steps:
+  - intent: pin_functions
+  - action: utter_pin_functions
+- rule: Respond to memory_addressing_schemes
+  steps:
+  - intent: memory_addressing_schemes
+  - action: utter_memory_addressing_schemes
+- rule: Respond to bus_buffering
+  steps:
+  - intent: bus_buffering
+  - action: utter_bus_buffering
+- rule: Respond to bus_cycles
+  steps:
+  - intent: bus_cycles
+  - action: utter_bus_cycles
+- rule: Respond to clock_generation_circuit
+  steps:
+  - intent: clock_generation_circuit
+  - action: utter_clock_generation_circuit
+- rule: Respond to reset_circuit
+  steps:
+  - intent: reset_circuit
+  - action: utter_reset_circuit
+- rule: Respond to memory_interfacing
+  steps:
+  - intent: memory_interfacing
+  - action: utter_memory_interfacing
+- rule: Respond to basic_io_interface
+  steps:
+  - intent: basic_io_interface
+  - action: utter_basic_io_interface
+- rule: Respond to programmable_peripheral_interface
+  steps:
+  - intent: programmable_peripheral_interface
+  - action: utter_programmable_peripheral_interface
+- rule: Respond to programmable_interval_timer
+  steps:
+  - intent: programmable_interval_timer
+  - action: utter_programmable_interval_timer
+- rule: Respond to hardware_interrupts
+  steps:
+  - intent: hardware_interrupts
+  - action: utter_hardware_interrupts
+- rule: Respond to programmable_interrupt_controller
+  steps:
+  - intent: programmable_interrupt_controller
+  - action: utter_programmable_interrupt_controller
+- rule: Respond to dma_operations
+  steps:
+  - intent: dma_operations
+  - action: utter_dma_operations
+- rule: Respond to training_vs_testing
+  steps:
+  - intent: training_vs_testing
+  - action: utter_training_vs_testing
+- rule: Respond to theory_of_generalization
+  steps:
+  - intent: theory_of_generalization
+  - action: utter_theory_of_generalization
+- rule: Respond to vc_dimension
+  steps:
+  - intent: vc_dimension
+  - action: utter_vc_dimension
+- rule: Respond to generalization_bounds
+  steps:
+  - intent: generalization_bounds
+  - action: utter_generalization_bounds
+- rule: Respond to bias_variance_tradeoff
+  steps:
+  - intent: bias_variance_tradeoff
+  - action: utter_bias_variance_tradeoff
+- rule: Respond to stochastic_gradient_descent
+  steps:
+  - intent: stochastic_gradient_descent
+  - action: utter_stochastic_gradient_descent
+- rule: Respond to backpropagation_algorithm
+  steps:
+  - intent: backpropagation_algorithm
+  - action: utter_backpropagation_algorithm
+version: '3.1'

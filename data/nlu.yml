@@ -1,0 +1,691 @@
+nlu:
+- examples: '- Explain data abstraction.
+
+    - What is data abstraction?
+
+    - Define data abstraction.'
+  intent: abstraction
+- examples: '- What is a syntax error
+
+    - Explain syntax error
+
+    - Why syntax error occurs?'
+  intent: error
+- examples: '- Explain program documentation. Why is it important?
+
+    - What is meant by program documentation?
+
+    - Why do we need program documentation?'
+  intent: documentation
+- examples: '- What is software testing?'
+  intent: testing
+- examples: '- How do you explain a data structure?'
+  intent: datastructure
+- examples: '- Explain what a binary search tree is.'
+  intent: bst
+- examples: '- What are dynamic data structures?'
+  intent: dynamic
+- examples: '- Can you explain doubly linked list?'
+  intent: dll
+- examples: '- What is logistic regression?'
+  intent: lr
+- examples: '- Describe decision tree'
+  intent: dt
+- examples: '- Explain confusion matrix'
+  intent: cm
+- examples: '- What is bias in data science?'
+  intent: bias
+- examples: '- What is dimensionality reduction?'
+  intent: dr
+- examples: '- What is DBMS?'
+  intent: dbms
+- examples: '- Explain normalization and de-normalization in databases.'
+  intent: normal
+- examples: '- What is BCNF? How it is different from 3NF?'
+  intent: bcnf
+- examples: '- What is a degree of relation in DBMS?'
+  intent: relation
+- examples: '- Give an explanation on the difference between strong AI and weak AI?'
+  intent: ai
+- examples: '- Define an expert system in AI?'
+  intent: expert
+- examples: '- What Are recurrent neural networks?'
+  intent: rnn
+- examples: '- What is the difference between supervised and unsupervised machine
+    learning?'
+  intent: supervised
+- examples: '- What do you understand by the hyperparameter?'
+  intent: hyperparameters
+- examples: '- What are bayesian networks?'
+  intent: bn
+- examples: '- What is encryption?
+
+    - Explain how encryption works.
+
+    - What are the types of encryption?'
+  intent: encryption
+- examples: '- What is an API?
+
+    - Explain how APIs work.
+
+    - What are the types of APIs?'
+  intent: api
+- examples: '- What is cloud computing?
+
+    - Explain the benefits of cloud computing.
+
+    - What are the types of cloud computing models?'
+  intent: cloud_computing
+- examples: '- What is virtual reality?
+
+    - Explain how virtual reality works.
+
+    - What are the applications of virtual reality?'
+  intent: virtual_reality
+- examples: '- What is cybersecurity?
+
+    - Explain the importance of cybersecurity.
+
+    - What are common cybersecurity threats?'
+  intent: cybersecurity
+- examples: '- What is a database?
+
+    - Explain types of databases.
+
+    - What are the benefits of using databases?'
+  intent: database
+- examples: '- What is programming?
+
+    - Explain different programming languages.
+
+    - What are the best practices in programming?'
+  intent: programming
+- examples: '- What is networking?
+
+    - Explain types of networks.
+
+    - What are the advantages of networking?'
+  intent: networking
+- examples: '- What is data science?
+
+    - Explain the data science process.
+
+    - What are the tools used in data science?'
+  intent: data_science
+- examples: '- What is the internet of things (IoT)?
+
+    - Explain IoT devices.
+
+    - What are the applications of IoT?'
+  intent: internet_of_things
+- examples: '- What is blockchain?
+
+    - Explain how blockchain works.
+
+    - What are the advantages of blockchain?'
+  intent: blockchain
+- examples: '- What are neural networks?
+
+    - Explain artificial neural networks.
+
+    - How do neural networks learn?'
+  intent: neural_networks
+- examples: '- What is natural language processing (NLP)?
+
+    - Explain NLP techniques.
+
+    - What are the applications of NLP?'
+  intent: natural_language_processing
+- examples: '- What is big data?
+
+    - Explain the 3Vs of big data.
+
+    - How is big data analyzed?'
+  intent: big_data
+- examples: '- What is DevOps?
+
+    - Explain the principles of DevOps.
+
+    - How does DevOps improve software development?'
+  intent: devops
+- examples: '- What is computer architecture?
+
+    - Explain the Von Neumann architecture.
+
+    - What are the components of a CPU?'
+  intent: computer_architecture
+- examples: '- What is digital logic design?
+
+    - Explain logic gates.
+
+    - What are flip-flops and latches?'
+  intent: digital_logic_design
+- examples: '- What is JavaScript?
+
+    - Explain JavaScript data types.
+
+    - What are JavaScript frameworks?'
+  intent: javascript
+- examples: '- What is React?
+
+    - Explain React components.
+
+    - What are React hooks?'
+  intent: react
+- examples: '- What is the difference between conventional and object-oriented programming?
+
+    - Compare conventional and object-oriented programming.'
+  intent: oop
+- examples: '- What is data abstraction?
+
+    - Explain data abstraction in programming.'
+  intent: data_abstraction
+- examples: '- What are objects, classes, and methods in programming?
+
+    - Explain the concept of objects, classes, and methods.'
+  intent: objects,_classes,_and_methods
+- examples: '- What are constructors in programming?
+
+    - Explain the concept of constructors.'
+  intent: constructors
+- examples: '- What are destructors in programming?
+
+    - Explain the concept of destructors.'
+  intent: destructors
+- examples: '- What is operator overloading in programming?
+
+    - Explain the concept of operator overloading.'
+  intent: operator_overloading
+- examples: '- What are class and function templates in generic programming?
+
+    - Explain the concept of class and function templates.'
+  intent: generic_programming
+- examples: '- What is inheritance in object-oriented programming?
+
+    - Explain the concept of inheritance.'
+  intent: inheritance
+- examples: '- What is multiple inheritance in object-oriented programming?
+
+    - Explain the concept of multiple inheritance.'
+  intent: multiple_inheritance
+- examples: '- What is polymorphism in object-oriented programming?
+
+    - Explain the concept of polymorphism.'
+  intent: polymorphism
+- examples: '- What is aggregation in object-oriented programming?
+
+    - Explain the concept of aggregation.'
+  intent: aggregation
+- examples: '- What is program debugging and testing?
+
+    - Explain the concept of program debugging and testing.'
+  intent: program_debugging_and_testing
+- examples: '- What is event logging in software development?
+
+    - Explain the concept of event logging.'
+  intent: event_logging
+- examples: '- What is propositional logic?
+
+    - Explain the concept of propositional logic.'
+  intent: propositional_logic
+- examples: '- What are logical connectives in propositional logic?
+
+    - Explain the concept of logical connectives.'
+  intent: logical_connectives
+- examples: '- What are truth tables in propositional logic?
+
+    - Explain the concept of truth tables.'
+  intent: truth_tables
+- examples: '- What is universal quantification in predicate logic?
+
+    - Explain the concept of universal quantification.'
+  intent: universal_quantification
+- examples: '- What is existential quantification in predicate logic?
+
+    - Explain the concept of existential quantification.'
+  intent: existential_quantification
+- examples: '- What is the rate of growth of algorithm complexity?
+
+    - Explain rate of growth in algorithm analysis.'
+  intent: rate_of_growth_of_complexity_of_algorithms
+- examples: '- What are asymptotic notations?
+
+    - Explain asymptotic notations in algorithm analysis.'
+  intent: asymptotic_notations
+- examples: '- What are time-space trade offs in algorithms?
+
+    - Explain time-space trade offs in computer algorithms.'
+  intent: time-space_trade_offs
+- examples: '- What are common operations on strings?
+
+    - Explain operations on strings in computer programming.'
+  intent: operations_on_strings
+- examples: '- What is word processing?
+
+    - Explain word processing in computer applications.'
+  intent: word_processing
+- examples: '- What are pattern matching algorithms?
+
+    - Explain pattern matching algorithms in computer science.'
+  intent: pattern_matching_algorithms
+- examples: '- What are one-dimensional arrays?
+
+    - Explain one-dimensional arrays in computer programming.'
+  intent: one-dimensional_arrays
+- examples: '- What are multi-dimensional arrays?
+
+    - Explain multi-dimensional arrays in computer programming.'
+  intent: multi-dimensional_arrays
+- examples: '- What are searching algorithms for arrays?
+
+    - Explain searching algorithms for arrays in computer programming.'
+  intent: searching_algorithms_for_arrays
+- examples: '- What are sorting algorithms for arrays?
+
+    - Explain sorting algorithms for arrays in computer programming.'
+  intent: sorting_algorithms_for_arrays
+- examples: '- What is matrix multiplication?
+
+    - Explain matrix multiplication in computer programming.'
+  intent: matrix_multiplication
+- examples: '- What are sparse matrices?
+
+    - Explain sparse matrices in computer programming.'
+  intent: sparse_matrices
+- examples: '- What are stacks?
+
+    - Explain stacks in computer programming.'
+  intent: stacks
+- examples: '- What are queues?
+
+    - Explain queues in computer programming.'
+  intent: queues
+- examples: '- What is recursion?
+
+    - Explain recursion in computer programming.'
+  intent: recursion
+- examples: '- What is Polish Notation?
+
+    - Explain Polish Notation in computer programming.'
+  intent: polish_notation
+- examples: '- What is Quick-sort?
+
+    - Explain Quick-sort algorithm.'
+  intent: quick_sort
+- examples: '- What are Deques?
+
+    - Explain Deques in computer programming.'
+  intent: deques
+- examples: '- What are Priority Queues?
+
+    - Explain Priority Queues in computer programming.'
+  intent: priority_queues
+- examples: '- What is Factorial Calculation?
+
+    - Explain Factorial Calculation in computer programming.'
+  intent: factorial_calculation
+- examples: '- What is Fibonacci Series?
+
+    - Explain Fibonacci Series in computer programming.'
+  intent: fibonacci_series
+- examples: '- What are Adders?
+
+    - Explain Adders in computer hardware.'
+  intent: adders
+- examples: '- What are Decoders?
+
+    - Explain Decoders in computer hardware.'
+  intent: decoders
+- examples: '- What are Encoders?
+
+    - Explain Encoders in computer hardware.'
+  intent: encoders
+- examples: '- What are Multiplexers?
+
+    - Explain Multiplexers in computer hardware.'
+  intent: multiplexers
+- examples: '- What are Demultiplexers?
+
+    - Explain Demultiplexers in computer hardware.'
+  intent: demultiplexers
+- examples: '- What are Binary Code Converters?
+
+    - Explain Binary Code Converters in computer hardware.'
+  intent: binary_code_converters
+- examples: '- What are Latches and Flip Flops?
+
+    - Explain Latches and Flip Flops in computer hardware.'
+  intent: latches_and_flip_flops
+- examples: '- What are Shift Registers?
+
+    - Explain Shift Registers in computer hardware.'
+  intent: shift_registers
+- examples: '- What are Asynchronous Counters?
+
+    - Explain Asynchronous Counters in computer hardware.'
+  intent: asynchronous_counters
+- examples: '- What are Mealy and Moore Machines?
+
+    - Explain Mealy and Moore Machines in computer hardware.'
+  intent: mealy_and_moore_machines
+- examples: '- What are Synchronous Counters?
+
+    - Explain Synchronous Counters in computer hardware.'
+  intent: synchronous_counters
+- examples: '- What are State Minimization Techniques?
+
+    - Explain State Minimization Techniques in digital circuit design.'
+  intent: state_minimization_techniques
+- examples: '- What is Read Only Memory (ROM)?
+
+    - Explain Read Only Memory in computer systems.'
+  intent: read_only_memory
+- examples: '- What is Programmable Array Logic (PAL)?
+
+    - Explain Programmable Array Logic in digital circuit design.'
+  intent: programmable_array_logic
+- examples: '- What is Programmable Logic Array (PLA)?
+
+    - Explain Programmable Logic Array in digital circuit design.'
+  intent: programmable_logic_array
+- examples: '- What is Instruction Set Architecture (ISA)?
+
+    - Explain Instruction Set Architecture in computer systems.'
+  intent: instruction_set_architecture
+- examples: '- What is Accumulator-based Architecture?
+
+    - Explain Accumulator-based Architecture in computer systems.'
+  intent: accumulator_based
+- examples: '- What is Stack-based Architecture?
+
+    - Explain Stack-based Architecture in computer systems.'
+  intent: stack_based
+- examples: '- What is Register-Memory Architecture?
+
+    - Explain Register-Memory Architecture in computer systems.'
+  intent: register_memory
+- examples: '- What is Register-Register Architecture?
+
+    - Explain Register-Register Architecture in computer systems.'
+  intent: register_register
+- examples: '- What are Instruction Encoding Techniques?
+
+    - Explain Instruction Encoding Techniques in computer systems.'
+  intent: instruction_encoding
+- examples: '- What is Computer Performance?
+
+    - Explain Computer Performance in computer systems.'
+  intent: computer_performance
+- examples: '- What are Common Pitfalls in computer performance?
+
+    - Explain Common Pitfalls in computer systems.'
+  intent: common_pitfalls
+- examples: '- What is Amdahl''s Law?
+
+    - Explain Amdahl''s Law in computer systems.'
+  intent: amdahls_law
+- examples: '- What is Memory Hierarchy?
+
+    - Explain Memory Hierarchy in computer systems.'
+  intent: memory_hierarchy
+- examples: '- What is Cache Memory?
+
+    - Explain Cache Memory in computer systems.'
+  intent: cache_memory
+- examples: '- What are Bus Standards?
+
+    - Explain Bus Standards in computer systems.'
+  intent: bus_standards
+- examples: '- What are Arbitration Schemes?
+
+    - Explain Arbitration Schemes in computer systems.'
+  intent: arbitration_schemes
+- examples: '- What is Programmed I/O?
+
+    - Explain Programmed I/O in computer systems.'
+  intent: programmed_io
+- examples: '- What is Interrupt-Driven I/O?
+
+    - Explain Interrupt-Driven I/O in computer systems.'
+  intent: interrupt_driven_io
+- examples: '- What is Direct Memory Access (DMA)?
+
+    - Explain DMA in computer systems.'
+  intent: direct_memory_access
+- examples: '- What is CAP Theorem?
+
+    - Explain CAP Theorem in distributed databases.'
+  intent: cap_theorem
+- examples: '- What are Distributed Databases?
+
+    - Explain Distributed Databases.'
+  intent: distributed_databases
+- examples: '- What are Decision Support Systems?
+
+    - Explain Decision Support Systems.'
+  intent: decision_support_systems
+- examples: '- What is Data Warehousing?
+
+    - Explain Data Warehousing.'
+  intent: data_warehousing
+- examples: '- What is Instruction Level Parallelism?
+
+    - Explain Instruction Level Parallelism.'
+  intent: instruction_level_parallelism
+- examples: '- What are Pipeline Hazards?
+
+    - Explain Pipeline Hazards in computer architectures.'
+  intent: pipeline_hazards
+- examples: '- What is Data Level Parallelism?
+
+    - Explain Data Level Parallelism in computer architectures.'
+  intent: data_level_parallelism
+- examples: '- What is Branch Prediction?
+
+    - Explain Branch Prediction in computer architectures.'
+  intent: branch_prediction
+- examples: '- What are Multiple Issue Architectures?
+
+    - Explain Multiple Issue Architectures in computer processors.'
+  intent: multiple_issue_architectures
+- examples: '- What are Software Process Models?
+
+    - Explain Software Process Models in software engineering.'
+  intent: software_process_models
+- examples: '- What is Requirements Engineering Process?
+
+    - Explain Requirements Engineering Process in software development.'
+  intent: requirements_engineering_process
+- examples: '- What is Planning and Scheduling in software development?
+
+    - Explain Planning and Scheduling in software projects.'
+  intent: planning_and_scheduling
+- examples: '- What is Risk Management in software development?
+
+    - Explain Risk Management in software projects.'
+  intent: risk_management
+- examples: '- What is Software Quality Assurance?
+
+    - Explain Software Quality Assurance in software development.'
+  intent: software_quality_assurance
+- examples: '- What is the COCOMO model?
+
+    - Explain COCOMO model in software development.'
+  intent: cocomo_model
+- examples: '- What is Software Maintenance?
+
+    - Explain Software Maintenance in software development.'
+  intent: software_maintenance
+- examples: '- What is the OSI reference model?
+
+    - Explain OSI reference model in computer networks.'
+  intent: osi_reference_model
+- examples: '- What is the TCP/IP reference model?
+
+    - Explain TCP/IP reference model in computer networks.'
+  intent: tcp_ip_reference_model
+- examples: '- What is Software Defined Networking (SDN)?
+
+    - Explain SDN in computer networks.'
+  intent: software_defined_networking
+- examples: '- What are Virtual Network Functions (VNFs)?
+
+    - Explain VNFs in computer networks.'
+  intent: virtual_network_functions
+- examples: '- What is IP addressing?
+
+    - Explain IP addressing in computer networks.'
+  intent: ip_addressing
+- examples: '- What is IP subnetting?
+
+    - Explain IP subnetting in computer networks.'
+  intent: ip_subnetting
+- examples: '- What is network routing?
+
+    - Explain network routing in computer networks.'
+  intent: network_routing
+- examples: '- What is Computational Intelligence?
+
+    - Explain Computational Intelligence.'
+  intent: computational_intelligence
+- examples: '- What are Searching Methodologies?
+
+    - Explain Searching Methodologies.'
+  intent: searching_methodologies
+- examples: '- What is First-Order Logic?
+
+    - Explain First-Order Logic.'
+  intent: first_order_logic
+- examples: '- What are Genetic Algorithms?
+
+    - Explain Genetic Algorithms.'
+  intent: genetic_algorithms
+- examples: '- What are Evolutionary Strategies?
+
+    - Explain Evolutionary Strategies.'
+  intent: evolutionary_strategies
+- examples: '- What are Kernels?
+
+    - Explain Kernels.'
+  intent: kernels
+- examples: '- What are Processes?
+
+    - Explain Processes.'
+  intent: processes
+- examples: '- What are Threads?
+
+    - Explain Threads.'
+  intent: threads
+- examples: '- What is Deadlock?
+
+    - Explain Deadlock.'
+  intent: deadlock
+- examples: '- What are Scheduling Algorithms?
+
+    - Explain Scheduling Algorithms.'
+  intent: scheduling_algorithms
+- examples: '- What is Memory Management?
+
+    - Explain Memory Management.'
+  intent: memory_management
+- examples: '- What is Secondary Storage Management?
+
+    - Explain Secondary Storage Management.'
+  intent: secondary_storage_management
+- examples: '- What is File Management?
+
+    - Explain File Management.'
+  intent: file_management
+- examples: '- What is I/O Management?
+
+    - Explain I/O Management.'
+  intent: io_management
+- examples: '- What is Disk Scheduling?
+
+    - Explain Disk Scheduling.'
+  intent: disk_scheduling
+- examples: '- What is Internal Bus Architecture?
+
+    - Explain Internal Bus Architecture.'
+  intent: internal_bus_architecture
+- examples: '- What are Pin Functions?
+
+    - Explain Pin Functions.'
+  intent: pin_functions
+- examples: '- What are Memory Addressing Schemes?
+
+    - Explain Memory Addressing Schemes.'
+  intent: memory_addressing_schemes
+- examples: '- What is Bus Buffering?
+
+    - Explain Bus Buffering.'
+  intent: bus_buffering
+- examples: '- What are Bus Cycles?
+
+    - Explain Bus Cycles.'
+  intent: bus_cycles
+- examples: '- What is a Clock Generation Circuit?
+
+    - Explain Clock Generation Circuit.'
+  intent: clock_generation_circuit
+- examples: '- What is a Reset Circuit?
+
+    - Explain Reset Circuit.'
+  intent: reset_circuit
+- examples: '- What is Memory Interfacing?
+
+    - Explain Memory Interfacing.'
+  intent: memory_interfacing
+- examples: '- What is Basic I/O Interface?
+
+    - Explain Basic I/O Interface.'
+  intent: basic_io_interface
+- examples: '- What is a Programmable Peripheral Interface?
+
+    - Explain Programmable Peripheral Interface.'
+  intent: programmable_peripheral_interface
+- examples: '- What is a Programmable Interval Timer?
+
+    - Explain Programmable Interval Timer.'
+  intent: programmable_interval_timer
+- examples: '- What are Hardware Interrupts?
+
+    - Explain Hardware Interrupts.'
+  intent: hardware_interrupts
+- examples: '- What is a Programmable Interrupt Controller?
+
+    - Explain Programmable Interrupt Controller.'
+  intent: programmable_interrupt_controller
+- examples: '- What are DMA Operations?
+
+    - Explain DMA Operations.'
+  intent: dma_operations
+- examples: '- What is the difference between Training and Testing in machine learning?
+
+    - Explain Training vs. Testing.'
+  intent: training_vs_testing
+- examples: '- What is the Theory of Generalization in machine learning?
+
+    - Explain Theory of Generalization.'
+  intent: theory_of_generalization
+- examples: '- What is VC Dimension in machine learning?
+
+    - Explain VC Dimension.'
+  intent: vc_dimension
+- examples: '- What are Generalization Bounds in machine learning?
+
+    - Explain Generalization Bounds.'
+  intent: generalization_bounds
+- examples: '- What is Bias-Variance Tradeoff in machine learning?
+
+    - Explain Bias-Variance Tradeoff.'
+  intent: bias_variance_tradeoff
+- examples: '- What is Stochastic Gradient Descent (SGD) in machine learning?
+
+    - Explain Stochastic Gradient Descent.'
+  intent: stochastic_gradient_descent
+- examples: '- What is the Backpropagation Algorithm in machine learning?
+
+    - Explain Backpropagation Algorithm.'
+  intent: backpropagation_algorithm
+version: '3.1'
